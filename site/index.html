@@ -2,10 +2,22 @@
 <html>
 
 <head>
+	<!-- o body serve para conseguirmos modificar o corpo todo da nossa pagina -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Dmitro Yaryna</title>
+	<!-- o body serve para conseguirmos modificar o corpo todo da nossa pagina -->
+	<!-- o link serve para definir como deve se comportar os links e quando sao carregados para serem visitados -->
+	<!-- o hover serve para para definir como deve se comportar os links que sao passados por cima com o rato ou ativados -->
+	<!-- o relative position serve como ancora, enquanto que o absoluto fica a dar float-->
 	<style>
+		*{
+
+		}
 		
+		body{
+			margin: 0;
+			padding: 0;
+		}
 		section li{
 			list-style: none;
 			display: inline;
@@ -16,6 +28,8 @@
 			font-size: 30px;
 			
 		}
+
+     
 		a:link, a:visited {
 			text-decoration: none;
 			background-color:  tomato;
@@ -23,7 +37,7 @@
 			color: black;
 			font-size: 18px;
 			display: inline-block;
-			width: 150px;
+			width: 120px;
 			text-align: center;
 			margin-top: 1px;
 
@@ -41,36 +55,50 @@
 			font-size: 20px;
 			position: relative;
 			left:40px;
-			font-family: Arial, Helvetica, sans-serif;
+			font-family: Helvetica, Arial, sans-serif;
 		}
 
 		img, footer, h1{
 			position: relative;
 			left:40px;
-			font-family: Arial, Helvetica, sans-serif;
+			font-family: Helvetica, Arial, sans-serif;
 		}
+
+		/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+		@media screen and (max-width:600px) {
+ 			.column {
+   				width: 100%;
+  			}
+  		}
 
 	</style>
 </head>
 
 <body>
-	<h1>WELCOME</h1>
-	<section>
+	<div>
+		<h1>WELCOME</h1>
+	</div>
+	
+	<section class="column">
 		<div class="atr1">Dmitro Yaryna</div>
 		<ul>
 			<li>
-				<a href="second.html" title="Art">Shop</a>
+				<a href="second.html" title="Art" >Shop</a>
 			</li>
 			<li>
-				<a href="https://www.artstation.com/dimasyareen" target="_blank" title="same dir">Art Station</a>
+				<a href="https://www.artstation.com/dimasyareen" target="_blank" title="same dir" >Art Station</a>
 			</li>
 			<li>
-				<a href="https://www.instagram.com/dimitri_yareen" target="_blank" title="Art">Instagram</a>
+				<a href="https://www.instagram.com/dimitri_yareen" target="_blank" title="Art" >Instagram</a>
 			</li>
 		</ul>
 		
 	</section>
-	<img src="https://pbs.twimg.com/profile_images/428303248202543104/9_84WqAe.jpeg" width="280" height="235">
+	
+	<div>
+		<img src="https://pbs.twimg.com/profile_images/428303248202543104/9_84WqAe.jpeg" width="280" height="235">
+	</div>
+	
 	<footer>
 		Mykyta Deyneha © Copyright 2021
 	</footer>
