@@ -3,10 +3,14 @@
 <head>
 	<title>Hi!</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
 	<style>
 		h1{
 			color: black;
@@ -23,39 +27,50 @@
 			float: right;
 		}
 
-		a:link,a:active,a:hover,a:visited{
-			color: black;
 
+
+		.linkclass a{
+			color: black;
+			font-family: 'Oswald', sans-serif;
+			font-weight: 400;
 		}
 
 		.carousel-inner img {
    		 	width: 100%;
    		 	height: 100%;
 		}
+
+		.brandtext{
+			margin-left: 50px;
+			font-family: 'Hammersmith One', sans-serif;
+			
+			color:black;
+		}
+
   }
 	</style>
 </head>
 <body>
-	<div class="navbar" style="margin-top: 20px; margin-bottom: 20px;">
-		<a class="navbar-brand" href="https://mykebueno.github.io/coursera-test/site/index.html" style="margin-left: 50px;">Dimas Yaryna</a>
+	<div class="navbar" style="margin-top: 20px; margin-bottom: 10px;">
+		<a class="navbar-brand brandtext" href="https://mykebueno.github.io/coursera-test/site/index.html">Dmitro Yaryna</a>
 		<ul class="nav">
-			<li class="nav-item" >
-				<a class="nav-link">Print Store</a>
+			<li class="nav-item linkclass" >
+				<a class="nav-link linkclass">Print Store</a>
 			</li>
-			<li class="nav-item">
+			<li class="nav-item linkclass">
 				<a class="nav-link">About</a>
 			</li>
-			<li class="nav-item" style="margin-right: 18px;">
+			<li class="nav-item linkclass" style="margin-right: 18px;">
 				<a class="nav-link">Contact</a>
 			</li>
 		</ul>
 	</div>
 
 	<div class="container-fluid" style="margin-bottom: 40px;">
-		<div class="row" style="height: 2px;">
-			<div class="col-lg-4 text-secondary"></div>
-			<div class="col-lg-4 text-secondary"></div>
-			<div class="col-lg-4 text-secondary"></div>
+		<div class="row" style="height: 1px;margin-bottom: 20px;">
+			<div class="col-lg-4 idk2"></div>
+			<div class="col-lg-4 idk2"></div>
+			<div class="col-lg-4 idk2"></div>
 		</div>
 		<div class="row" style="width: 60%;margin: auto;">
 			<div id="demo" class="carousel slide" data-ride="carousel">
@@ -91,6 +106,7 @@
 
 			</div>
 		</div>
+		
 
 	</div>
 	
