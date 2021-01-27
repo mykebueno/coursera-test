@@ -4,10 +4,7 @@
 }
 
 .descriptionimg{
-	font-size: 20px;
+	font-size: 2em;
+	font-family: 'Bebas Neue', cursive;
 }
 
-.slides{
-	width: 80%;
-	margin: auto;
-}
