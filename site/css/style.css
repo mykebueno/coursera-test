@@ -36,4 +36,22 @@ h1#availablestore{
 	margin-top: 100px;
 }
 
+@media (max-width: 767px){
+	.navbar-brand{
+	font-family: 'Kadwa', serif;
+	font-size:1.2em;
+	text-shadow: 1px 1px #DCDCDC;
+ 	}
+ 	.descriptionimg{
+	font-size: 1.0em;
+	font-family: 'Bebas Neue', cursive;
+	}
 
+	button.navbar-toggler{
+		font-size: 0.9em;
+	}
+	.nav-link, .dropdown-item{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 0.9em;
+	}
+}
