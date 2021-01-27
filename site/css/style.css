@@ -4,7 +4,17 @@
 }
 
 .descriptionimg{
-	font-size: 2em;
+	font-size: 1.5em;
 	font-family: 'Bebas Neue', cursive;
+}
+
+.navbar-brand{
+	font-family: 'Trocchi', serif;
+	font-size:1.5em;
+}
+
+.nav-link, .dropdown-item{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 1.2em;
 }
 
