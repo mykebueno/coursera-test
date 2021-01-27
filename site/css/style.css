@@ -9,8 +9,9 @@
 }
 
 .navbar-brand{
-	font-family: 'Trocchi', serif;
-	font-size:1.5em;
+	font-family: 'Kadwa', serif;
+	font-size:1.7em;
+	text-shadow: 1px 1px #DCDCDC;
 }
 
 .nav-link, .dropdown-item{
