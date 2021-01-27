@@ -18,3 +18,10 @@
 	font-size: 1.2em;
 }
 
+.navbar.navbar-custom.navbar-expand-lg{
+	background-color: #F8F8FF;
+}
+
+body{
+	background-color: #F8F8FF;
+}
