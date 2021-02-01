@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Dimitri Yareen</title>
+	<title>CoffeeLab</title>
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,9 +11,8 @@
   <link rel="stylesheet" href="css/style.css" type="text/css" v="1.0">
   
   <!--FONTS STUFF-->
-  <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Kadwa:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!--SCRIPTS STUFF-->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -23,74 +22,71 @@
 </head>
 <body>
 
-<nav class="navbar navbar-custom navbar-expand-lg navbar-light  mb-3">
+
+<div class="container-fluid conteudo-header" >
+  <nav class="navbar navbar-custom navbar-expand-lg navbar-light">
   <div class="container">
-    <a class="navbar-brand" href="index.html">Dimitri Yareen</a>
+    <!--<a class="navbar-brand mt-1" href="index.html">Dimitri Yareen</a>-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="store.html">Print Store</a>
+    <div class="collapse navbar-collapse justify-content-center mt-2" id="navbarNavDropdown" >
+      <ul class="navbar-nav " >
+        <li class="nav-item" >
+          <a class="nav-link" href="#" >Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="store.html">About Me</a>
+          <a class="nav-link" href="#">About Us </a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item" >
+          <a class="nav-link" href="#" >Instagram <i href="#" class="fa fa-instagram"></i></a>
+        </li>
+        <!--<li class="nav-item dropdown" style="color: white;">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Socials
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
             <a class="dropdown-item" href="https://www.artstation.com/dimasyareen" target="_blank">Artstation</a>
             <a class="dropdown-item" href="https://www.instagram.com/dimitri_yareen/" target="_blank">Instagram</a>
             <a class="dropdown-item" href="store.html" target="_blank">Contact me</a>
           </div>
         </li>
+      -->
       </ul>
     </div>
   </div>
-</nav>
-
-<div class="container-fluid">
-
-    <div class="row justify-content-center" >
-      <div id="demo" class="carousel slide col-lg-10 col-md-12" data-ride="carousel">
-
-          <!-- Indicators -->
-          <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-          </ul>
-
-          <!-- The slideshow -->
-          <div class="carousel-inner">
-            <div class="carousel-item active" >
-                <img src="https://cdnb.artstation.com/p/assets/images/images/034/131/757/large/dimitri-yareen-iced-flower-village.jpg?1611499398" alt="Day" >
-            </div>
-            
-            <div class="carousel-item">
-                <img src="https://cdna.artstation.com/p/assets/images/images/034/131/748/large/dimitri-yareen-iced-flower-village-night-3.jpg?1611499388" alt="Evening" >
-            </div>
-            <div class="carousel-item">
-                <img src="https://cdna.artstation.com/p/assets/images/images/034/131/752/large/dimitri-yareen-iced-flower-village-night.jpg?1611499393" alt="Night">
-            </div>
-          </div>
-
-          <!-- Left and right controls -->
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-          <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </a>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-    	<div class="text-center mt-2 descriptionimg">Winter Village</div>
-    </div>
+</nav>  
+<div class="d-flex p-2 justify-content-center">
+  <div class="brandname">CoffeeLab</div>
 </div>
+</div>
+
+<div class="container-fluid conteudo-main">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="text-center cof-values">THE BEST COFFEE SHOP</h2>
+      <p class="text-center cof-values">We believe in coffee aesthetic.</p>  
+      <p class="text-center cof-values">We believe in the quality of coffee's grains </p>
+      <p class="text-center cof-values final">We believe in our costumers' taste</p>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    
+    <div class = "col-lg-3">
+      
+      
+      <img class="card-img-top" src="cafe1.png" width="200" height="350" alt="Card image cap">
+      
+    </div>  
+    <div class = "col-lg-3">
+      <img class="card-img-top" src="cafe2.png" width="200" height="350" alt="Card image cap">
+    </div> 
+    <div class = "col-lg-3">
+      <img class="card-img-top" src="cafe3.png" width="200" height="350" alt="Card image cap">
+    </div> 
+  </div>
+</div>
+
 		
 </body>
 </html>
