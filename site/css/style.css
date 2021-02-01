@@ -44,7 +44,7 @@ div.container-fluid.conteudo-main{
 	height: 630px;
 	/*border: 1px black;
 	border-style: solid;*/
-	background-color: #D2B48C;
+	background-color: #e4a757;
 }
 
 h2.text-center{
@@ -56,11 +56,23 @@ p.text-center{
 	font-family: 'Roboto Slab', serif;
 }
 
-.col-md-3 .card .card-img-top{
-	width: 100px;
-	height: 100px;
+.col-lg-3 .card-img-top{
+	width: 300px;
+	height: 300px;
+	box-shadow: 0px 0px 6px black;
+	
 } 
 
 p.text-center.final{
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+div.col-lg-3{
+	text-align: center;
+}
+
+div.col-lg-3 div.description{
+	margin-top: 10px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.3vw;
 }
