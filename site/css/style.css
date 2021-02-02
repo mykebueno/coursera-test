@@ -1,9 +1,6 @@
 div.container-fluid.conteudo-header{
 	background-image: url("../try2.png");
 	height: 300px;
-	/*border: 1px black;
-	border-style: solid;
-  	border-width: 5px black; */
 	background-size: cover;
 	background-blend-mode: overlay;
 	background-position: center;
@@ -11,8 +8,7 @@ div.container-fluid.conteudo-header{
 }
 
 nav.navbar.navbar-custom{
-	height: 40px;
-	padding-top: 40px;
+	padding-top: 8px;
 }
 
 .navbar li.nav-item a.nav-link,
@@ -20,7 +16,7 @@ nav.navbar.navbar-custom{
 {
 	color: white;
 	text-shadow: 1px 1px 6px black;
-	font-size: 1.6em;
+	font-size: 1.6vw;
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -35,44 +31,119 @@ div.brandname{
 	color: white;
 	font-family: 'Roboto Slab', serif;
 	text-shadow: 1px 1px 6px black;
-	margin-top: 35px;
+	margin-top: 12px;
 	font-size: 4vw;
 	text-align: center;
 }
 
 div.container-fluid.conteudo-main{
-	height: 630px;
-	/*border: 1px black;
-	border-style: solid;*/
+	height: 530px;
 	background-color: #e4a757;
 }
 
-h2.text-center{
+h2.text-center.cof-values{
 	padding-top: 40px;
 	font-family: 'Roboto Slab', serif;
 }
 
-p.text-center{
+p.text-center.cof-values{
 	font-family: 'Roboto Slab', serif;
 }
 
-.col-lg-3 .card-img-top{
-	width: 300px;
-	height: 300px;
-	box-shadow: 0px 0px 6px black;
-	
-} 
 
-p.text-center.final{
+p.text-center.final.cof-values{
 	margin-bottom: 30px;
 }
 
-div.col-lg-3{
-	text-align: center;
+.imagemenu div img{
+	box-shadow: 3px 0px 3px black;
+	width: 100%;
+	height: 100%;
 }
 
-div.col-lg-3 div.description{
-	margin-top: 10px;
-	font-family: 'Roboto Slab', serif;
-	font-size: 1.3vw;
+div.imagemenu{
+	margin-bottom: 20px !important;
 }
+
+.imagemenu div p{
+	top: 230px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.2vw;
+}
+
+div.d-flex.flex-column
+{
+	width: 70%;
+	margin:auto;
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+	div.d-flex.flex-column
+	{
+		width: 70%;
+		margin:auto;
+	}
+	.navbar li.nav-item a.nav-link,
+	.navbar a.navbar-brand
+	{
+		font-size: 1.9vw;
+	}
+	div.container-fluid.conteudo-main{
+		height: 440px;
+	}
+	
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	div.brandname{
+		font-size: 6vw;
+	}
+
+	.navbar li.nav-item a.nav-link,
+	.navbar a.navbar-brand
+	{
+		font-size: 3.1vw;
+	}
+
+	div.container-fluid.conteudo-header{
+		height: 270px;
+		
+	}
+
+	div.container-fluid.conteudo-main{
+		height: 390px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+	div.brandname{
+		font-size: 10vw;
+		margin-top: 2px;
+	}
+
+	div.d-flex.flex-column
+	{
+		width: 50%;
+		margin:auto;
+	}
+
+	.navbar li.nav-item a.nav-link,
+	.navbar a.navbar-brand
+	{
+		font-size: 6vw;
+		margin: auto;
+	}
+
+	div.container-fluid.conteudo-header{
+		height: 270px;
+		
+	}
+
+	.imagemenu div p{
+		font-size: 4vw;
+	}
+	div.container-fluid.conteudo-main{
+		height: 1000px;
+	}
+ }
