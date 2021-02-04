@@ -28,6 +28,10 @@ nav.navbar.navbar-custom{
 	color:#DAA520;
 }
 
+a.brand-link{
+	text-decoration: none;
+}
+
 div.brandname{
 	color: white;
 	font-family: 'Roboto Slab', serif;
