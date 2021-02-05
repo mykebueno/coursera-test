@@ -98,7 +98,7 @@ div.d-flex.flex-column
 
 /*Parte do conteudo main 2222*/
 div.container-fluid.conteudo-main2{
-	height: 360px;
+	height: 450px;
 	background-color: #ffffff;
 	
 	}
@@ -137,6 +137,10 @@ div.image-gps{
 div.image-gps div.d-flex div.googlemaps{
 	border-style: solid;
 	border-width: 1px;
+	object-fit:cover;
+	float: left;
+	position: relative;
+	
   }
 /*Conteudo de midia para dar resize nas screens diferentes*/
 
