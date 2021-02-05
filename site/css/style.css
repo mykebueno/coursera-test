@@ -72,6 +72,8 @@ p.text-center.final.cof-values{
 	float: left;
 	margin: auto;
 	position: relative;
+	border-style: solid;
+	border-width: 1px;
 }
 
 div.imagemenu{
@@ -110,21 +112,32 @@ div.text-gps div.texto-lol h2{
 	color: white;
 	font-family: 'Roboto Slab', serif;
 	padding-bottom: 30px;
+	text-shadow: 1px 1px 6px black;
 }
 
 div.text-gps div.texto-lol p{
 	font-size: 1.4em;
 	color: white;
 	font-family: 'Roboto Slab', serif;
+	text-shadow: 1px 1px 6px black;
 }
 
 div.text-gps{
-	background-color: #7b4427;
+	background-image: url("../bkg3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
 }
 
 div.image-gps{
-	background-color: #68371d;
+	background-color: #7b4427;
 }
+
+div.image-gps div.d-flex div.googlemaps{
+	border-style: solid;
+	border-width: 1px;
+  }
 /*Conteudo de midia para dar resize nas screens diferentes*/
 
 @media (min-width: 1025px) and (max-width: 1250px) {
