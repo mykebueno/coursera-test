@@ -72,8 +72,11 @@ p.text-center.final.cof-values{
 	float: left;
 	margin: auto;
 	position: relative;
-	border-style: solid;
-	border-width: 1px;
+	
+}
+
+.imagemenu div a:hover.cafee{
+	border: 2px solid #7b4427;
 }
 
 div.imagemenu{
@@ -142,6 +145,23 @@ div.image-gps div.d-flex div.googlemaps{
 	position: relative;
 	
   }
+
+div.image-gps div.d-flex div.googlemaps{
+	border-style: solid;
+	border-width: 1px;
+	object-fit:cover;
+	float: left;
+	position: relative;
+	
+  }
+
+  div.image-gps div.imagem-gps{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	width: 370px;
+	margin: auto;
+}
+
 /*Conteudo de midia para dar resize nas screens diferentes*/
 
 @media (min-width: 1025px) and (max-width: 1250px) {
@@ -181,6 +201,7 @@ div.image-gps div.d-flex div.googlemaps{
 	p.text-center.cof-values{
 		font-size: 1em;
 	}
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
