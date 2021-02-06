@@ -3,6 +3,7 @@
   var dc = {};
   
   var homeHtml = "snippets/home-snippet.html";
+  var menuHtml = "snippets/menu.html";
   
   // Convenience function for inserting innerHTML for 'select'
   var insertHtml = function (selector, html) {
@@ -34,7 +35,7 @@
   dc.loadMenu = function(){
     showLoading("#main-content");
     $ajaxUtils.sendGetRequest(
-      homeHtml,
+      menuHtml,
       function (responseText) {
         document.querySelector("#main-content")
           .innerHTML = responseText;
