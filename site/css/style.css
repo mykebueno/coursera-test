@@ -50,8 +50,26 @@ div.container-fluid.conteudo-main{
 	background-size: cover;
 }
 
+div.container-fluid.conteudo2-main{
+	height: 660px;
+	background-color: #e4a757;
+	background-image: url("../bck-L.png");
+	background-size: cover;
+}
+
 h2.text-center.cof-values{
 	padding-top: 40px;
+	font-family: 'Roboto Slab', serif;
+}
+
+h2.cof2-values{
+	font-size: 2.4em;
+	font-family: 'Roboto Slab', serif;
+	padding-bottom: 30px;
+}
+
+p.cof2-values{
+	font-size: 1.2em;
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -174,6 +192,10 @@ div.image-gps div.d-flex div.googlemaps{
 		height: 590px;
 	}
 
+	div.container-fluid.conteudo2-main{
+		height: 590px;
+	}
+
 	.row.linha-conteudo{
 		padding-top: 100px;
 	}
@@ -186,6 +208,11 @@ div.image-gps div.d-flex div.googlemaps{
 		margin:auto;
 	}
 	div.container-fluid.conteudo-main{
+		height: 500px;
+		background-image: url("../bck-M.png");
+	}
+
+	div.container-fluid.conteudo2-main{
 		height: 500px;
 		background-image: url("../bck-M.png");
 	}
@@ -218,6 +245,10 @@ div.image-gps div.d-flex div.googlemaps{
 		height: 1050px;
 		background-image: url("../bck-S.png");
 	}
+	div.container-fluid.conteudo2-main{
+		height: 1050px;
+		background-image: url("../bck-S.png");
+	}
 
 	.row.linha-conteudo{
 		padding-top: 47px;
@@ -239,6 +270,11 @@ div.image-gps div.d-flex div.googlemaps{
 		
 	}
 	div.container-fluid.conteudo-main{
+		height: 1100px;
+		background-image: url("../bck-S.png");
+	}
+
+	div.container-fluid.conteudo2-main{
 		height: 1100px;
 		background-image: url("../bck-S.png");
 	}
