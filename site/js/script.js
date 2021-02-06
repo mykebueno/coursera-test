@@ -30,6 +30,18 @@
     },
     false);
   });
+
+  dc.loadMenu = function(){
+    showLoading("#main-content");
+    $ajaxUtils.sendGetRequest(
+      homeHtml,
+      function (responseText) {
+        document.querySelector("#main-content")
+          .innerHTML = responseText;
+      },
+      false);
+    
+  };
   
   
   global.$dc = dc;
