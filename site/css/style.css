@@ -12,8 +12,6 @@
 }
 
 .tag2{
-    width: 30%;
-    margin: auto;
     opacity: 0;
     transform: translate(-20px, 0px);
     transition: all 0.5s ease-in-out;
@@ -21,7 +19,7 @@
 
 .tag2.visible{
     opacity: 1;
-    transform: translate(0, 0);
+    transform: translate(0px, 0px);
 }
 
 /*Parte do header*/
