@@ -82,17 +82,6 @@ p.text-center.final.cof-values{
 	margin-bottom: 30px;
 }
 
-.image-intro{
-	opacity: 0;
-	transform: translateY(20px);
-	transition: 0.5s all ease-in-out;
-}
-
-.image-appear{
-	opacity: 1;
-	transform: translateY(0px);
-}
-
 .imagemenu div img{
 	/*box-shadow: 2px 2px 2px #ac6509;*/
 	width: 100%;
