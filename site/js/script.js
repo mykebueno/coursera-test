@@ -44,15 +44,21 @@
     
   };
   
-  document.addEventListener('scroll', scrollAppear);
+  window.addEventListener('scroll', scrollAppear);
 
   function scrollAppear(){
-    var introImg = document.querySelector('.image-intro');
-    var introPosition = introImg.getBoundingClientRect().top;
-    var screenPosition = window.innerHeight /1.3;
-
-    if(introPosition < screenPosition){
-      introImg.classList.add('.img-appear');
+    var pageTop = $(document).scrollTop();
+    var pageBottom = pageTop + $(window).height();
+    var tags = $(".tag");
+    
+    for (var i = 0; i < tags.length; i++) {
+    var tag = tags[i];
+    
+    if ($(tag).position().top < pageBottom) {
+    $(tag).addClass("visible");
+    } else {
+    $(tag).removeClass("visible");
+    }
     }
   }
 
