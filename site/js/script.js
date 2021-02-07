@@ -45,6 +45,7 @@
   };
   
   window.addEventListener('scroll', scrollAppear);
+  window.addEventListener('scroll', scrollAppear2);
 
   function scrollAppear(){
     var pageTop = $(document).scrollTop();
@@ -58,6 +59,22 @@
     $(tag).addClass("visible");
     } else {
     $(tag).removeClass("visible");
+    }
+    }
+  }
+  
+  function scrollAppear2(){
+    var pageTop = $(document).scrollTop();
+    var pageBottom = pageTop + $(window).height();
+    var tags = $(".tag2");
+    
+    for (var i = 0; i < tags.length; i++) {
+    var tag = tags[i];
+    
+    if ($(tag).position().top < pageBottom) {
+    $(tag).addClass("visible2");
+    } else {
+    $(tag).removeClass("visible2");
     }
     }
   }
