@@ -44,7 +44,18 @@
     
   };
   
-  
+  document.addEventListener('scroll', scrollAppear);
+
+  function scrollAppear(){
+    var introImg = document.querySelector('.image-intro');
+    var introPosition = introImg.getBoundingClientRect().top;
+    var screenPosition = window.innerHeight /1.3;
+
+    if(introPosition < screenPosition){
+      introImg.classList.add('.img-appear');
+    }
+  }
+
   global.$dc = dc;
   
   })(window);
