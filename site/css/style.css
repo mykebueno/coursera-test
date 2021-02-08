@@ -2,8 +2,8 @@
     width: 30%;
     margin: auto;
     opacity: 0;
-    transform: translate(0, 40px);
-    transition: all 0.2s ease-in-out;
+    transform: translate(0, 30vh);
+    transition: all 1.2s ease-in-out;
 }
 
 .tag.visible{
@@ -13,7 +13,7 @@
 
 .tag2{
     opacity: 0;
-    transform: translate(-20px, 0px);
+    transform: translate(-20vh, 0px);
     transition: all 0.5s ease-in-out;
 }
 
