@@ -51,9 +51,13 @@
     var pageTop = $(document).scrollTop();
     var pageBottom = pageTop + $(window).height();
     var tags = $(".tag");
-    
+    var delayMl = 500;
+
     for (var i = 0; i < tags.length; i++) {
     var tag = tags[i];
+    setTimeout(function(){
+
+    }, delayMl);
     
     if ($(tag).position().top < pageBottom) {
     $(tag).addClass("visible");
