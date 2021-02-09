@@ -46,30 +46,32 @@
   
   window.addEventListener('scroll', scrollAppear);
   window.addEventListener('scroll', scrollAppear2);
+  window.addEventListener('scroll', scrollAppear3);
 
   function scrollAppear(){
     var pageTop = $(document).scrollTop();
     var pageBottom = pageTop + $(window).height();
     var tags = $(".tag");
-    var delayMl = 500;
-
-    for (var i = 0; i < tags.length; i++) {
-    var tag = tags[i];
-    setTimeout(function(){
-
-    }, delayMl);
     
-    if ($(tag).position().top < pageBottom) {
-    $(tag).addClass("visible");
-    } else {
-    $(tag).removeClass("visible");
-    }
-    }
+    i =  0;
+    //for (var i = 0; i < tags.length; i++) {
+      
+      yolo=setInterval(() => {
+        var tag = tags[i];
+          if ($(tag).position().top < pageBottom) {
+            $(tag).addClass("visible");
+          } else {
+            $(tag).removeClass("visible");
+          }
+          if(i == 2) clearInterval(yolo);
+          i++;
+      }, 400); 
+    //}
   }
   
   function scrollAppear2(){
     var pageTop = $(document).scrollTop();
-    var pageBottom = pageTop + $(window).height();
+    var pageBottom = pageTop + ($(window).height())/3000;
     var tags = $(".tag2");
     
     for (var i = 0; i < tags.length; i++) {
@@ -79,6 +81,22 @@
     $(tag).addClass("visible2");
     } else {
     $(tag).removeClass("visible2");
+    }
+    }
+  }
+
+  function scrollAppear3(){
+    var pageTop = $(document).scrollTop();
+    var pageBottom = pageTop + $(window).height();
+    var tags = $(".tag3");
+    
+    for (var i = 0; i < tags.length; i++) {
+    var tag = tags[i];
+    
+    if ($(tag).position().top < pageBottom) {
+    $(tag).addClass("visible3");
+    } else {
+    $(tag).removeClass("visible3");
     }
     }
   }

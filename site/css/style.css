@@ -13,13 +13,24 @@
 
 .tag2{
     opacity: 0;
-    transform: translate(-20vh, 0px);
-    transition: all 0.5s ease-in-out;
+    transform: translate(-20px, 0);
+    transition: all 2s ease-in-out;
 }
 
-.tag2.visible{
+.tag2.visible2{
     opacity: 1;
-    transform: translate(0px, 0px);
+    transform: translate(0, 0);
+}
+
+.tag3{
+    opacity: 0;
+    transform: translate(-20px, 0);
+    transition: all 1.2s ease-in-out;
+}
+
+.tag3.visible3{
+    opacity: 1;
+    transform: translate(0, 0);
 }
 
 /*Parte do header*/
